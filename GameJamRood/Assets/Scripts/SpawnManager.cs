@@ -34,7 +34,6 @@ public class SpawnManager : MonoBehaviour
         StartCoroutine(RunSpawner());
     }
 
-
     private IEnumerator RunSpawner()
     {
         //Wait two seconds on the first time

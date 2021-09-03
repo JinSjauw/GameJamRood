@@ -89,10 +89,4 @@ public class SpawnManager : MonoBehaviour
         int spawnPointIndex = Random.Range(0, _SpawnPoints.Length);
         enemies.Add(Instantiate(_BasicKikker, _SpawnPoints[spawnPointIndex].position, _SpawnPoints[spawnPointIndex].rotation));
     }
-
-    //void UpdateWaveText()
-    //{
-    //    _WaveText.text = _waveNumber.ToString();
-    //    _FinalWaveText.text = _waveNumber.ToString();
-    //}
 }

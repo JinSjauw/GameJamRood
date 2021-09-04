@@ -9,4 +9,14 @@ public class Menuscript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void quit()
+    {
+        Application.Quit();
+    }
+
+    public void LoadMain()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

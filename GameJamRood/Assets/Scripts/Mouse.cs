@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Mouse : MonoBehaviour
 {
+    AudioSource Click;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +39,7 @@ public class Mouse : MonoBehaviour
                     //hit.collider.gameObject.SetActive(false);
                     Destroy(hit.collider.gameObject);
 
-
+                    
                 }
 
 
